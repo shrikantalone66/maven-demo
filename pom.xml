@@ -35,6 +35,15 @@
 
     </dependencies>
 
+
+    <distributionManagement>
+    <repository>
+        <id>nexus</id>
+        <name>Nexus Release Repo</name>
+        <url>http://localhost:8081/repository/ashokit-remote-repository/</url>
+    </repository>
+</distributionManagement>
+
     <build>
         <plugins>
             <plugin>
