@@ -11,7 +11,13 @@
     <name>${project.artifactId}</name>
     <packaging>jar</packaging>
 
-
+<distributionManagement>
+    <repository>
+        <id>nexus</id>
+        <name>Nexus Repo</name>
+        <url>http://localhost:8081/repository/ashokit-remote-repository/</url>
+    </repository>
+</distributionManagement>
     <dependencies>
         <dependency>
             <groupId>io.reactivex</groupId>
