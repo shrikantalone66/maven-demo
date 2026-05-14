@@ -13,7 +13,7 @@
     <packaging>jar</packaging>
     <name>maven-demo</name>
 
-    <!-- 🔥 Nexus Deployment Configuration -->
+    <!--  Nexus Deployment Configuration -->
     <distributionManagement>
         <repository>
             <id>nexus</id>
